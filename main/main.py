@@ -26,7 +26,7 @@ import tkinter as tk
 from tkinter import ttk
 from tkinter import filedialog
 from tkinter import messagebox
-from data import *
+from ggd_data import *
 from logic import create_reaper_map
 import os
 

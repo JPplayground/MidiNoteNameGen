@@ -20,7 +20,7 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 This file contains the logic for generating Reaper Midi Note Name files based on a provided nka file
 """
 
-from data import *
+from ggd_data import *
 
 def create_reaper_map(input_file, kit_name, output_file):
     # input file == an nka file exported from Kontakt with desired mapping
