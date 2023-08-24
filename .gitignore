@@ -1,6 +1,7 @@
 # created by virtualenv automatically
 MidiNoteNameGen.spec
 dist
+dist/MidiNoteNameGen.exe
 build
 resources
 venv
