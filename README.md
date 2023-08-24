@@ -19,4 +19,4 @@ These are the kits that I own currently and I do plan on acquiring more in the f
 
 If you don't want to mess with the tool I have included some mappings and corresponding reaper midi note name files that you can download:
 
-These contain the default mappings the come with these kits (which is kinda wierd) and a more optimized version where kit sections are grouped nicely.
+These presets contain the default mappings that come with these kits (which are a bit wierd in my opinion) and a more optimized version where kit sections are grouped nicely.
