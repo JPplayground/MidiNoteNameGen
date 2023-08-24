@@ -9,7 +9,8 @@ produces a Midi Note Name file (a txt file that Reaper uses to show custom names
 - OKW Aggressive Rock
 - OKW Architects
 
-These are the kits that I own currently and plan on acquiring more in the future.  
+These are the kits that I own currently and I do plan on acquiring more in the future.  However if you would like to see functionality for kits not listed here read the "How To Help" section (no money involved :D )
+
 [Download the tool](https://raw.githubusercontent.com/pattersonjosh15/MidiNoteNameGen/main/download/MidiNoteNameGen.exe)
 
 # Presets
