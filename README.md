@@ -39,7 +39,7 @@ open the desired library and:
 - Send the exported file (it will be an .nka file) and screenshot over to me at joshpattdev@gmail.com  
 
 Here is what the screen shot should look like,  
-![](https://github.com/pattersonjosh15/MidiNoteNameGen/docs/screenshots/example.JPG)
+![](./docs/screenshots/example.JPG)
 
 
 
