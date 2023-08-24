@@ -51,39 +51,45 @@ def create_reaper_map(input_file, kit_name, output_file):
         used_note_numbers = []
         num_and_kit_piece = []
 
+        # List of line numbers actually used by that particular nka file
+        active_line_numbers = nka_file_dict.keys()
+
         set_of_lines = f.read().splitlines()
 
         for line_number, kontakt_midi_note_number in enumerate(set_of_lines):
 
-            # line 0 is always '%ART__articulation_map', or non-used line number
-            if line_number == 0 or int(kontakt_midi_note_number) < 0:
-                continue
+            # We only need to iterate over line numbers that are ACTUALLY USED by the nka array
+            if line_number in active_line_numbers:
 
-            append_me = ''
+                # line 0 is always '%ART__articulation_map', or non-used line number
+                if line_number == 0 or int(kontakt_midi_note_number) < 0:
+                    continue
 
-            # GET REAPER MIDI NOTE NUMBER
-            # ================================================ #
-            # get string to use as dictionary key lookup
-            kontakt_midi_string = KONTAKT_NOTES[int(kontakt_midi_note_number)]
-            # convert from kontakt note to reaper note
-            reaper_note = convert_kontakt_note_to_reaper_note(kontakt_midi_string)
-            # get the index of that reaper note
-            reaper_note_number = str(get_number_from_note(reaper_note))
-            # add to string
-            append_me += reaper_note_number
-            # track used note numbers (to fill in unused numbers with '~'
-            used_note_numbers.append(int(reaper_note_number))
-            # ================================================ #
+                append_me = ''
 
-            # GET KIT PIECE NAME
-            # ================================================ #
-            if line_number in nka_file_dict.keys():
-                kit_piece = nka_file_dict[line_number]
-                append_me += ' ' + kit_piece
-            # ================================================ #
+                # GET REAPER MIDI NOTE NUMBER
+                # ================================================ #
+                # get string to use as dictionary key lookup
+                kontakt_midi_string = KONTAKT_NOTES[int(kontakt_midi_note_number)]
+                # convert from kontakt note to reaper note
+                reaper_note = convert_kontakt_note_to_reaper_note(kontakt_midi_string)
+                # get the index of that reaper note
+                reaper_note_number = str(get_number_from_note(reaper_note))
+                # add to string
+                append_me += reaper_note_number
+                # track used note numbers (to fill in unused numbers with '~'
+                used_note_numbers.append(int(reaper_note_number))
+                # ================================================ #
 
-            # APPEND (reaper_note_number kit_piece)
-            num_and_kit_piece.append(append_me)
+                # GET KIT PIECE NAME
+                # ================================================ #
+                if line_number in nka_file_dict.keys():
+                    kit_piece = nka_file_dict[line_number]
+                    append_me += ' ' + kit_piece
+                # ================================================ #
+
+                # APPEND (reaper_note_number kit_piece)
+                num_and_kit_piece.append(append_me)
 
     # FILL IN REMAINING UNUSED REAPER NOTES
     # ================================================ #
@@ -97,6 +103,7 @@ def create_reaper_map(input_file, kit_name, output_file):
         for line in num_and_kit_piece:
             f.write(line)
             f.write('\n')
+
 
 
 

@@ -47,8 +47,6 @@ class MidiNoteMapApp:
         self.fg_color = "#ecf0f1"
         self.border_color = "#34495e"
 
-        self.is_closing = False
-
         self.setup_and_display_ui()
 
     def setup_and_display_ui(self):
@@ -101,14 +99,42 @@ class MidiNoteMapApp:
     def select_input_file(self):
         self.input_file_path = filedialog.askopenfilename(title="Select Input File", filetypes=[("KSP Script Array Files", "*.nka")])
         if self.input_file_path:
-            self.input_file_label.config(text=self.input_file_path)
+
+            # Display only the file name (full paths get to long)
+            self.input_file_label.config(text=os.path.split(self.input_file_path)[-1])
+
+            # Use input filepath to auto-gen an output filepath and update output label
+            self.generate_output_filepath_and_label(self.input_file_path)
+
+
 
     def select_output_file(self):
         self.output_file_path = filedialog.asksaveasfilename(title="Select Output File", filetypes=[("Text files", "*.txt")])
-        if not os.path.splitext(self.output_file_path)[1]:
+
+        # Making sure that the file ends with '.txt'
+        if os.path.splitext(self.output_file_path)[-1] != '.txt':
+
             self.output_file_path += '.txt'
+
+        # Display only the file name (full paths get to long)
         if self.output_file_path:
-            self.output_file_label.config(text=self.output_file_path)
+            self.output_file_label.config(text=os.path.split(self.output_file_path)[-1])
+
+    def generate_output_filepath_and_label(self, input_filepath):
+
+        # Use input filepath to auto-gen an output filepath and update output label
+
+        input_filepath = os.path.abspath(input_filepath)
+
+        # Replacing nka with txt generates a txt within the same folder as src file
+        self.output_file_path = input_filepath.replace('.nka', '.txt')
+
+        # Grab the file name only for displaying to gui
+        output_txt = os.path.split(self.output_file_path)[-1]
+
+        # Update gui label
+        self.output_file_label.config(text=output_txt)
+
 
     def update_checkboxes(self, checked_var):
         for i, var in enumerate(self.checkbox_vars):
@@ -118,6 +144,8 @@ class MidiNoteMapApp:
                 self.kit_selection = self.checkbox_texts[i]
 
     def run(self):
+
+        # Making sure necessary gui elements are selected
         if not self.kit_selection:
             messagebox.showwarning("Warning", "Select the kit you are creating a map for!")
             return
@@ -128,8 +156,12 @@ class MidiNoteMapApp:
             messagebox.showwarning("Warning", "No output file selected!")
             return
 
-        create_reaper_map(self.input_file_path, self.kit_selection, self.output_file_path)
-        messagebox.showinfo("Success", "MIDI Note Map Created!")
+        # Execute logic
+        try:
+            create_reaper_map(self.input_file_path, self.kit_selection, self.output_file_path)
+            messagebox.showinfo("Success", "MIDI Note Map Created!")
+        except Exception:
+            messagebox.showwarning("Failure", "Something went wrong")
 
 
 if __name__ == '__main__':

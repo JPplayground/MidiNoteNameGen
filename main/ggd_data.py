@@ -146,15 +146,18 @@ HALPERN_ORIGINAL_TEXT = [
 #
 #     print(p4_nka)
 
+# NKA DICTS
+# Name of kit piece: What line number in the .nka file that piece corresponds to
+
 invasion_nka = {'Left': 2, 'Right': 3, 'Auto Double Kick': 4, 'Hit': 6, 'Flam': 5, 'Wires Off': 9, 'Ruft': 7,
                 'Sidestick': 8, 'Rack Tom 1 Hit': 10, 'Rack Tom 2 Hit': 11, 'Rack Tom 3 Hit': 12, 'Floor Tom 1 Hit': 13,
                 'Floor Tom 2 Hit': 14, 'Floor Tom 3 Hit': 15, 'Main Crash L Hit': 33, 'Main Crash L Choke': 32,
                 'Wide Crash L Hit': 31, 'Wide Crash L Choke': 30, 'Main Crash R Hit': 37, 'Main Crash R Choke': 36,
                 'Wide Crash R Hit': 35, 'Wide Crash R Choke': 34, 'China L Hit': 39, 'China L Choke ': 38, 'China R Hit': 41,
-                'China R Choke': 40, 'Bell': 27, 'Rate': 29, 'Edge': 28, 'Tip Tight': 23, 'Edge Tight': 22, 'Tip Closed': 17,
+                'China R Choke': 40, 'Bell': 27, 'Rim': 29, 'Edge': 28, 'Tip Tight': 23, 'Edge Tight': 22, 'Tip Closed': 17,
                 'Eye Closed': 16, 'Open 1': 18, 'Open 2': 19, 'Open 3': 20, 'Peal': 21, 'CC': 24, 'Xhat Closed': 25,
                 'Xhat Open': 26, 'Splash L Hit': 43, 'Splash L Choke': 42, 'Splash C Hit': 45, 'Splash C Choke': 44,
-                'Stack Hit': 48, 'Bell L Hit': 46, 'Bell R: Ht': 47}
+                'Stack Hit': 48, 'Bell L Hit': 46, 'Bell R Ht': 47}
 
 aggressive_rock_nka = {'Kick': 2, 'Snare Hit': 4, 'Cross Stick': 3, 'Tom 1: Hit': 5, 'Tom 2: Hit': 6, 'Tip Tight': 14,
                        'Edge Tight': 13, 'Tip Closed': 8, 'Ede Closed:': 7, 'Open 1': 9, 'Open 2': 10, 'Open 3': 11,
