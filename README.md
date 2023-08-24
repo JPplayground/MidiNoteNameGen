@@ -14,6 +14,6 @@ produces a Midi Note Name file (a txt file that Reaper uses to show custom names
 # Presets
 If you don't want to mess with the tool I have included some mappings and corresponding reaper midi note name files that you can download:
 
-[Download the presets](https://raw.githubusercontent.com/pattersonjosh15/MidiNoteNameGen/main/presets)
+[Download the presets](https://raw.githubusercontent.com/pattersonjosh15/MidiNoteNameGen/presets)
 
 These contain the default mappings the come with these kits (which is kinda wierd) and a more optimized version where kit sections are grouped nicely.
