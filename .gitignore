@@ -1,2 +1,6 @@
 # created by virtualenv automatically
 MidiNoteNameGen.spec
+dist
+build
+resources
+venv
