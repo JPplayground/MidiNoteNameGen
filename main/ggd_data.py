@@ -168,7 +168,7 @@ architects_nka = {'Kick': 2, 'Snare Hit': 4, 'Cross Stick': 3, 'Tom 1 Hit': 6, '
                   'Ride Bow': 19, 'Ride Crash': 20, 'Ride Choke': 34, 'Main L Hit': 22, 'Main L Choke': 21, 'Main R Hit': 24,
                   'Main R Choke': 23, 'Wide R Hit': 26, 'Wide R Choke': 25, 'Tip Tight': 16, 'Edge Tight': 15, 'Tip Closed': 10,
                   'Edge Closed': 9, 'Open 1': 11, 'Open 2': 12, 'Open 3': 13, 'Pedal': 14, 'CC': 17, 'China Hit': 33, 'China Choke': 32,
-                  'Splash Hit': 30, 'Splash Choke': 29, 'Mini China Hit': 28, 'Mini China Choke': 27, 'X-hat Hit': 159}
+                  'Splash Hit': 30, 'Splash Choke': 29, 'Mini China Hit': 28, 'Mini China Choke': 27, 'X-hat Hit': 31}
 
 metal_nka = {'Left': 2, 'Right': 3, 'Double Kick': 4, 'Hit': 6, 'Cross Stick': 5, 'Tip Tight': 18, 'Edge Tight': 17,
              'Tip Closed': 12, 'Edge Closed': 11, 'Open 1': 13, 'Open 2': 14, 'Open 3': 15, 'Pedal': 16, 'CC': 19,
@@ -178,10 +178,10 @@ metal_nka = {'Left': 2, 'Right': 3, 'Double Kick': 4, 'Hit': 6, 'Cross Stick': 5
              'Splash Center Choke': 32}
 
 p4_nka = {'Kick': 2, 'Snare Hit': 5, 'Snare Flam': 4, 'Wires Off': 7, 'Ruft': 6, 'Sidestick': 3, 'Rack Tom 1 Hit': 8,
-          'Rack Tom 2 Hit': 9, 'Floor Tom 1 Hit': 11, 'Stick Click': 38, 'Tip Tight': 20, 'Edge Tight': 14, 'Tip Closed': 19,
+          'Rack Tom 2 Hit': 9, 'Floor Tom 1 Hit': 10, 'Floor Tom 2 Hit': 11, 'Stick Click': 38, 'Tip Tight': 20, 'Edge Tight': 14, 'Tip Closed': 19,
           'Edge Closed': 13, 'Open 1': 15, 'Open 2': 16, 'Open 3': 17, 'Pedal': 18, 'Pedal Chink': 12, 'CC': 21, 'Ride Bell': 22,
-          'Ride Bow': 23, 'China Hit': 31, 'China Choke': 30, 'Main Crash L Hit': 28, 'Main Crash L Choke': 24, 'Wide Crash L Hit': 27,
-          'Wide Crash L Choke': 26, 'Main Crash R Hit': 29, 'Splash L Hit': 33, 'Splash L Choke': 32, 'Splash C Hit': 35, 'Splash C Choke': 34,
+          'Ride Bow': 23, 'China Hit': 31, 'China Choke': 30, 'Main Crash L Hit': 25, 'Main Crash L Choke': 24, 'Wide Crash L Hit': 27,
+          'Wide Crash L Choke': 26, 'Main Crash R Hit': 29, 'Main Crash R Choke': 28, 'Splash L Hit': 33, 'Splash L Choke': 32, 'Splash C Hit': 35, 'Splash C Choke': 34,
           'Mini Hats Hit': 36, 'Stack Hit': 37}
 
 halpern_original_nka = {'Kick Main Hit': 2, 'Stick Click Kick Hit': 3, 'Snare Hit': 4, 'Flam': 5, 'Ruff': 6, 'Snare-Off': 7,
