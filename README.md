@@ -7,8 +7,8 @@ produces a Midi Note Name file (a txt file that Reaper uses to show custom names
 - The Original Matt Halpern Signature Pack
 - OKW Metal
 - OKW Aggressive Rock
-- OKW Architects
-  
+- OKW Architects  
+These are the kits that I own currently and plan on acquiring more in the future.  
 [Download the tool](https://raw.githubusercontent.com/pattersonjosh15/MidiNoteNameGen/main/download/MidiNoteNameGen.exe)
 
 # Presets
