@@ -1,0 +1,128 @@
+12 Kick Main Hit
+13 Stick Click Kick Hit
+15 Snare Hit
+16 Flam
+17 Ruff
+18 Snare-Off
+19 Stick Click
+21 Hi Tom Hit
+22 Hi Tom Rim Hit
+23 Mid Tom 1 Main Hit
+24 Mid Tom 1 Rim Hit
+25 Mid Tom 2 Main Hit
+26 Mid Tom 2 Rim Hit
+27 Floor Tom Main Hit
+28 Floor Tom Rim Hit
+30 Pedal Chik
+31 Pedal Ching
+32 Tip Tight
+33 Edge Tight
+34 Tip Closed
+35 Edge Closed
+36 Tip Loose
+37 Edge Loose
+38 Tip Open 1
+39 Edge Open 1
+40 Tip Open 2
+41 Edge Open 2
+42 Tip Open 3
+43 Edge Open 3
+44 Tip Wide
+45 Edge Wide
+48 Left Crash Hit
+49 Left Crash Bell
+50 Left Crash Choke
+51 Left Crash Swell
+53 Right Crash Hit
+54 Right Crash Bell
+55 Right Crash Choke
+56 Right Crash Swell
+58 Ride Tip
+59 Ride Crash
+60 Ride Bell Tip
+61 Ride Bell Shoulder
+63 China Main Hit
+64 China Choke
+66 Stack Tight Hit
+67 Stack Loose Hit
+69 Splash Hit
+46 Hi Hat CC
+0 ~
+1 ~
+2 ~
+3 ~
+4 ~
+5 ~
+6 ~
+7 ~
+8 ~
+9 ~
+10 ~
+11 ~
+14 ~
+20 ~
+29 ~
+47 ~
+52 ~
+57 ~
+62 ~
+65 ~
+68 ~
+70 ~
+71 ~
+72 ~
+73 ~
+74 ~
+75 ~
+76 ~
+77 ~
+78 ~
+79 ~
+80 ~
+81 ~
+82 ~
+83 ~
+84 ~
+85 ~
+86 ~
+87 ~
+88 ~
+89 ~
+90 ~
+91 ~
+92 ~
+93 ~
+94 ~
+95 ~
+96 ~
+97 ~
+98 ~
+99 ~
+100 ~
+101 ~
+102 ~
+103 ~
+104 ~
+105 ~
+106 ~
+107 ~
+108 ~
+109 ~
+110 ~
+111 ~
+112 ~
+113 ~
+114 ~
+115 ~
+116 ~
+117 ~
+118 ~
+119 ~
+120 ~
+121 ~
+122 ~
+123 ~
+124 ~
+125 ~
+126 ~
+127 ~

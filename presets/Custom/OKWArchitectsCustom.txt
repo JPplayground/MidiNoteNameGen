@@ -1,0 +1,128 @@
+12 Kick
+15 Cross Stick
+14 Snare Hit
+17 Tom 1 Hit
+18 Tom 2 Hit
+19 Tom 3 Hit
+24 Edge Closed
+23 Tip Closed
+25 Open 1
+26 Open 2
+27 Open 3
+28 Pedal
+22 Edge Tight
+21 Tip Tight
+29 CC
+38 Ride Bell
+39 Ride Bow
+40 Ride Crash
+32 Main L Choke
+31 Main L Hit
+34 Main R Choke
+33 Main R Hit
+36 Wide R Choke
+35 Wide R Hit
+46 Mini China Choke
+45 Mini China Hit
+51 Splash Choke
+50 Splash Hit
+48 X-hat Hit
+44 China Choke
+43 China Hit
+41 Ride Choke
+0 ~
+1 ~
+2 ~
+3 ~
+4 ~
+5 ~
+6 ~
+7 ~
+8 ~
+9 ~
+10 ~
+11 ~
+13 ~
+16 ~
+20 ~
+30 ~
+37 ~
+42 ~
+47 ~
+49 ~
+52 ~
+53 ~
+54 ~
+55 ~
+56 ~
+57 ~
+58 ~
+59 ~
+60 ~
+61 ~
+62 ~
+63 ~
+64 ~
+65 ~
+66 ~
+67 ~
+68 ~
+69 ~
+70 ~
+71 ~
+72 ~
+73 ~
+74 ~
+75 ~
+76 ~
+77 ~
+78 ~
+79 ~
+80 ~
+81 ~
+82 ~
+83 ~
+84 ~
+85 ~
+86 ~
+87 ~
+88 ~
+89 ~
+90 ~
+91 ~
+92 ~
+93 ~
+94 ~
+95 ~
+96 ~
+97 ~
+98 ~
+99 ~
+100 ~
+101 ~
+102 ~
+103 ~
+104 ~
+105 ~
+106 ~
+107 ~
+108 ~
+109 ~
+110 ~
+111 ~
+112 ~
+113 ~
+114 ~
+115 ~
+116 ~
+117 ~
+118 ~
+119 ~
+120 ~
+121 ~
+122 ~
+123 ~
+124 ~
+125 ~
+126 ~
+127 ~

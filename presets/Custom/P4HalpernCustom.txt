@@ -1,0 +1,128 @@
+12 Kick
+18 Sidestick
+15 Snare Flam
+14 Snare Hit
+17 Ruft
+16 Wires Off
+21 Rack Tom 1 Hit
+22 Rack Tom 2 Hit
+23 Floor Tom 1 Hit
+24 Floor Tom 2 Hit
+35 Pedal Chink
+29 Edge Closed
+27 Edge Tight
+31 Open 1
+32 Open 2
+33 Open 3
+34 Pedal
+28 Tip Closed
+26 Tip Tight
+36 CC
+45 Ride Bell
+46 Ride Bow
+39 Main Crash L Choke
+38 Main Crash L Hit
+41 Wide Crash L Choke
+40 Wide Crash L Hit
+43 Main Crash R Choke
+42 Main Crash R Hit
+49 China Choke
+48 China Hit
+55 Splash L Choke
+54 Splash L Hit
+57 Splash C Choke
+56 Splash C Hit
+51 Mini Hats Hit
+52 Stack Hit
+19 Stick Click
+0 ~
+1 ~
+2 ~
+3 ~
+4 ~
+5 ~
+6 ~
+7 ~
+8 ~
+9 ~
+10 ~
+11 ~
+13 ~
+20 ~
+25 ~
+30 ~
+37 ~
+44 ~
+47 ~
+50 ~
+53 ~
+58 ~
+59 ~
+60 ~
+61 ~
+62 ~
+63 ~
+64 ~
+65 ~
+66 ~
+67 ~
+68 ~
+69 ~
+70 ~
+71 ~
+72 ~
+73 ~
+74 ~
+75 ~
+76 ~
+77 ~
+78 ~
+79 ~
+80 ~
+81 ~
+82 ~
+83 ~
+84 ~
+85 ~
+86 ~
+87 ~
+88 ~
+89 ~
+90 ~
+91 ~
+92 ~
+93 ~
+94 ~
+95 ~
+96 ~
+97 ~
+98 ~
+99 ~
+100 ~
+101 ~
+102 ~
+103 ~
+104 ~
+105 ~
+106 ~
+107 ~
+108 ~
+109 ~
+110 ~
+111 ~
+112 ~
+113 ~
+114 ~
+115 ~
+116 ~
+117 ~
+118 ~
+119 ~
+120 ~
+121 ~
+122 ~
+123 ~
+124 ~
+125 ~
+126 ~
+127 ~

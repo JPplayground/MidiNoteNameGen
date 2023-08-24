@@ -1,0 +1,128 @@
+23 Left
+24 Right
+22 Auto Double Kick
+27 Flam
+26 Hit
+28 Ruft
+30 Sidestick
+29 Wires Off
+33 Rack Tom 1 Hit
+34 Rack Tom 2 Hit
+35 Rack Tom 3 Hit
+36 Floor Tom 1 Hit
+37 Floor Tom 2 Hit
+38 Floor Tom 3 Hit
+44 Eye Closed
+43 Tip Closed
+45 Open 1
+46 Open 2
+47 Open 3
+48 Peal
+42 Edge Tight
+41 Tip Tight
+17 CC
+70 Xhat Closed
+71 Xhat Open
+61 Bell
+63 Edge
+62 Rim
+57 Wide Crash L Choke
+56 Wide Crash L Hit
+53 Main Crash L Choke
+52 Main Crash L Hit
+59 Wide Crash R Choke
+58 Wide Crash R Hit
+55 Main Crash R Choke
+54 Main Crash R Hit
+66 China L Choke 
+65 China L Hit
+68 China R Choke
+67 China R Hit
+74 Splash L Choke
+73 Splash L Hit
+76 Splash C Choke
+75 Splash C Hit
+79 Bell L Hit
+80 Bell R: Ht
+78 Stack Hit
+0 ~
+1 ~
+2 ~
+3 ~
+4 ~
+5 ~
+6 ~
+7 ~
+8 ~
+9 ~
+10 ~
+11 ~
+12 ~
+13 ~
+14 ~
+15 ~
+16 ~
+18 ~
+19 ~
+20 ~
+21 ~
+25 ~
+31 ~
+32 ~
+39 ~
+40 ~
+49 ~
+50 ~
+51 ~
+60 ~
+64 ~
+69 ~
+72 ~
+77 ~
+81 ~
+82 ~
+83 ~
+84 ~
+85 ~
+86 ~
+87 ~
+88 ~
+89 ~
+90 ~
+91 ~
+92 ~
+93 ~
+94 ~
+95 ~
+96 ~
+97 ~
+98 ~
+99 ~
+100 ~
+101 ~
+102 ~
+103 ~
+104 ~
+105 ~
+106 ~
+107 ~
+108 ~
+109 ~
+110 ~
+111 ~
+112 ~
+113 ~
+114 ~
+115 ~
+116 ~
+117 ~
+118 ~
+119 ~
+120 ~
+121 ~
+122 ~
+123 ~
+124 ~
+125 ~
+126 ~
+127 ~
