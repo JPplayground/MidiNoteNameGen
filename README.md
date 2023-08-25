@@ -18,7 +18,7 @@ the "How To Help" section (no money involved :D )
 
 # Presets
 
-[Download the presets](https://raw.github.usercontent.com/pattersonjosh15/MidiNoteNameGen/main/download/preset-pack.zip)
+[Download the presets](https://raw.githubusercontent.com/pattersonjosh15/MidiNoteNameGen/main/download/preset-pack.zip)
 
 If you don't want to mess with the tool I have included some mappings 
 and corresponding reaper midi note name files that you can download.
