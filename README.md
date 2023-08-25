@@ -18,8 +18,6 @@ the "How To Help" section (no money involved :D )
 
 # Presets
 
-presets
-
 [Download the presets](https://raw.githubusercontent.com/pattersonjosh15/MidiNoteNameGen/tree/main/presets)
 
 If you don't want to mess with the tool I have included some mappings 
