@@ -24,7 +24,7 @@ If you don't want to mess with the tool I have included some mappings
 and corresponding reaper midi note name files that you can download.
 
 These presets contain the default mappings that come with these kits 
-(which are a bit wierd in my opinion) and a more optimized version where 
+(which are a bit wierd in my opinion) and more optimized version where 
 kit sections are grouped nicely.
 
 # If you want to help
